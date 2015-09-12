@@ -16,7 +16,11 @@
 
                 <br>
 
-                <small>https://github.com/passioncoder/saedemo</small>
+                <p class="lead">
+                    <a href="https://github.com/passioncoder/saedemo#tldr" target="_blank">
+                        https://github.com/passioncoder/saedemo
+                    </a>
+                </p>
 
             </section>
 

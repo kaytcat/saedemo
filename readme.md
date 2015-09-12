@@ -27,6 +27,7 @@ In your __Terminal__:
 	git clone git@github.com:passioncoder/saedemo.git saedemo
 	cd saedemo
 	composer install
+	cp .env.example .env
     php vendor/bin/homestead make
     vagrant box add laravel/homestead
 	vagrant up
