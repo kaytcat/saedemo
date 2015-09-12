@@ -3,7 +3,7 @@
 A Laravel 5 demo project for teaching purposes. 
 
 
-## Setup
+## Local setup
 
 ### Homestead
 
@@ -13,10 +13,13 @@ Follow the step by step guide at [http://laravel.com/docs/5.1/homestead](http://
 
 ### TL;DR
 
-Download & Install __VirtualBox__:
+Install __composer__:
+[https://getcomposer.org/doc/00-intro.md#globally](https://getcomposer.org/doc/00-intro.md#globally)
+
+Install __VirtualBox__:
 [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
 
-Download & Install __Vagrant__:
+Install __Vagrant__:
 [http://www.vagrantup.com/downloads.html](http://www.vagrantup.com/downloads.html)
 
 In your __Terminal__:
@@ -24,11 +27,11 @@ In your __Terminal__:
 	git clone git@github.com:passioncoder/saedemo.git saedemo
 	cd saedemo
 	composer install
-	php vendor/bin/homestead make
-	vagrant box add laravel/homestead
+    php vendor/bin/homestead make
+    vagrant box add laravel/homestead
 	vagrant up
 
-Open [http://192.168.10.10](http://192.168.10.10) in your browser.
+Visit [http://192.168.10.10](http://192.168.10.10) in your browser.
 
 ### Other recommended stuff:
 
@@ -37,3 +40,22 @@ Open [http://192.168.10.10](http://192.168.10.10) in your browser.
 - PHP IDE: [https://www.jetbrains.com/phpstorm](https://www.jetbrains.com/phpstorm/) (30 day trial)
 
 
+## Further learning:
+
+- __RTFM__:
+[http://laravel.com/docs](http://laravel.com/docs)
+
+- Read the __code__:
+[https://github.com/laravel/framework](https://github.com/laravel/framework)
+
+- Watch __Laracasts__:
+[https://laracasts.com](https://laracasts.com)
+
+- Find 3rd-party __packages__:
+[https://packagist.org](https://packagist.org)
+
+- Ask your questions on __stackoverflow__:
+[http://stackoverflow.com/questions/tagged/laravel](http://stackoverflow.com/questions/tagged/laravel)
+
+- Code tutorials from __tutsplus__:
+[http://tutsplus.com/tutorials/search?search[terms]=Laravel](http://tutsplus.com/tutorials/search?search[terms]=Laravel)
