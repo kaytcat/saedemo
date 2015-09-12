@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+.env
+.idea
+/vendor
+/node_modules
+/npm-debug.log
+/.vagrant
+Homestead.yaml
+Homestead.json

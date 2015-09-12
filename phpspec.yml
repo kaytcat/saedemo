@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: SaeDemo
+        psr4_prefix: SaeDemo
+        src_path: app
