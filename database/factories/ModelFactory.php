@@ -19,3 +19,14 @@ $factory->define(SaeDemo\User::class, function (Faker\Generator $faker) {
         'remember_token' => str_random(10),
     ];
 });
+
+
+
+$factory->define(SaeDemo\Course::class, function (Faker\Generator $faker) {
+
+	return [
+
+		'title' 		=> $faker->company,
+		'description'	=> $faker->text(200),
+	];
+});
