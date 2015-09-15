@@ -24,7 +24,8 @@ Install __Vagrant__:
 
 In your __Terminal__:
 	
-	git clone git@github.com:passioncoder/saedemo.git saedemo
+	ssh-keygen -t rsa -b 4096 -C "your_email@example.com" (optional step)
+	git clone https://github.com/passioncoder/saedemo.git saedemo
 	cd saedemo
 	composer install
 	cp .env.example .env
