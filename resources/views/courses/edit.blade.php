@@ -12,8 +12,10 @@
 
             <hr>
 
-            <form action="" method="" class="form-horizontal">
+            <form action="{{ route('courses.update', $course->id) }}" method="post" class="form-horizontal">
 
+                {!! method_field('PUT') !!}
+                {!! csrf_field() !!}
 
                 <label>Titel:</label>
                 <input type="text" name="title" value="{{ $course->title }}" class="form-control">
@@ -22,7 +24,7 @@
                 <textarea name="description" class="form-control">{{ $course->description }}</textarea>
 
                 <button type="submit" class="btn btn-primary">
-                    Submit!
+                    Submit
                 </button>
 
             </form>
