@@ -14,7 +14,7 @@
         <div class="collapse navbar-collapse" id="mainNav">
 
             <ul class="nav navbar-nav">
-                <li><a href="#">Link</a></li>
+                <li><a href="{{ route('courses.index') }}">Courses</a></li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">

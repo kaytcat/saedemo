@@ -14,6 +14,10 @@
                 Zurück
             </a>
 
+            <a class="btn btn-default" href="{{ route('courses.edit', $course->id) }}">
+                Bearbeiten
+            </a>
+
         </div>
     </div>
 

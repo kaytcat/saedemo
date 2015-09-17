@@ -18,7 +18,7 @@ class CourseController extends Controller
      */
     public function index()
     {
-        $courses = Course::all();
+        $courses = Course::orderBy('title', 'asc')->get();
 
 		return view('courses.index', compact('courses'));
     }
@@ -65,7 +65,9 @@ class CourseController extends Controller
      */
     public function edit($id)
     {
-        //
+		$course = Course::find($id);
+
+		return view('courses.edit', compact('course'));
     }
 
     /**
